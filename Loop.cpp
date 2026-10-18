@@ -35,5 +35,15 @@ int main()
         cout << i << " ";
     }
 
+    //infinite loop using while loop
+    int q;
+    cout << "\nEnter a positive integer: ";
+    cin >> q;
+    while (q > 0)
+    {
+        cout << q << " ";
+        q--;
+    }
+
     return 0;
 }
